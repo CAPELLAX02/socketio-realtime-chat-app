@@ -1,0 +1,25 @@
+{
+  "name": "socketio-realtime-chat-app",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/CAPELLAX02/socketio-realtime-chat-app.git"
+  },
+  "author": "Ahmet ATAR",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CAPELLAX02/socketio-realtime-chat-app/issues"
+  },
+  "homepage": "https://github.com/CAPELLAX02/socketio-realtime-chat-app#readme",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "nodemon": "^3.1.4",
+    "socket.io": "^4.7.5"
+  }
+}
