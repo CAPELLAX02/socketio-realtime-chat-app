@@ -110,8 +110,7 @@ body {
   align-items: center;
   margin-right: 5px;
   margin-left: 5px;
-  padding-right: 5px;
-  padding-left: 5px;
+  padding: 8px;
   overflow-wrap: break-word;
   word-break: break-word;
 }
