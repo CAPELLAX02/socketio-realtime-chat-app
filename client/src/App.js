@@ -1,6 +1,7 @@
 import './App.css';
 import io from 'socket.io-client';
 import { useState } from 'react';
+import Chat from './Chat';
 
 const socket = io('http://localhost:5000');
 
@@ -11,7 +12,7 @@ function App() {
 
   function joinRoom() {
     if (username === '' || room === '') {
-      console.warn('Username and Room fields cannot be emtpy.');
+      alert('Username and Room fields cannot be emtpy.');
       return;
     }
     socket.emit('join_room', room);

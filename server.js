@@ -22,11 +22,11 @@ io.on('connection', (socket) => {
 
   socket.on('join_room', (data) => {
     socket.join(data);
-    console.log(`User (${socket}) joined room (${data})`);
+    console.log(`User (${socket.id}) joined room (${data})`);
   });
 
   socket.on('send_message', (data) => {
-    socket.io(data.room).emit('receive_message', data);
+    io.to(data.room).emit('receive_message', data);
   });
 
   socket.on('disconnect', () => {
