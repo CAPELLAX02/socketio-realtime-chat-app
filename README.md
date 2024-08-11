@@ -82,10 +82,6 @@ There are several scripts defined in the `package.json` file to help you run the
 
 Ahmet ATAR
 
-### License
-
-This project is licensed under the ISC License.
-
 ### Issues
 
 If you find any bugs or have any issues, please report them [here](https://github.com/CAPELLAX02/socketio-realtime-chat-app/issues).
