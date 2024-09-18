@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Socket.IO Realtime Chat App
 
 This project is a real-time chat application built using Socket.IO and Express. The client side is developed with React and is located in the `client` directory.
@@ -89,8 +88,8 @@ If you find any bugs or have any issues, please report them [here](https://githu
 
 ### Additional Information
 
-For more details on how this project works, visit the [GitHub repository](https://github.com/CAPELLAX02/socketio-realtime-chat-app).
-=======
+# For more details on how this project works, visit the [GitHub repository](https://github.com/CAPELLAX02/socketio-realtime-chat-app).
+
 # Socket.IO Realtime Chat App
 
 This project is a real-time chat application built using Socket.IO and Express. The client side is developed with React and is located in the `client` directory.
@@ -99,7 +98,6 @@ This project is a real-time chat application built using Socket.IO and Express. 
 
 https://github.com/user-attachments/assets/9b58c1a1-b9e6-4351-b872-dd310befa600
 
-
 ## Getting Started
 
 Follow these instructions to get the project up and running on your local machine.
@@ -187,4 +185,3 @@ If you find any bugs or have any issues, please report them [here](https://githu
 ### Additional Information
 
 For more details on how this project works, visit the [GitHub repository](https://github.com/CAPELLAX02/socketio-realtime-chat-app).
->>>>>>> 4ff5faf88d948c821f7ee75c6d4d6de0b251b236
